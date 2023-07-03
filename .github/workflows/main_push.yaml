@@ -3,7 +3,7 @@ name: Builds & pushes frontend to AWS
 on:
   push:
     branches:
-      - feature/pipeline
+      - main
   workflow_dispatch:
 
 jobs:
