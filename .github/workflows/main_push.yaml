@@ -16,7 +16,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: latest
-          cache: npm
       - name: Clone from prez-ui
         run: git clone https://github.com/RDFLib/prez-ui.git
       - name: Install and build
